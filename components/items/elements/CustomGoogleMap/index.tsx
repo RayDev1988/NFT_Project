@@ -39,13 +39,15 @@ export const CustomGoogleMap = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
           </div>
+          <div className="lat-line"></div>
+          <div className="lng-line"></div>
           <GoogleMapReact
             bootstrapURLKeys={{ key: 'AIzaSyBKrCHuYKL5B_ba1xHkhaRVHMfEqgTxkOw' }}
             center={position}
             defaultZoom={defaultProps.zoom}
           />
           <div className="bottom-icon">
-            <NearMeOutlinedIcon />
+            <NearMeOutlinedIcon className="near-me-out-lined-icon" />
           </div>
           <style jsx global>{`
             .gm-fullscreen-control {
@@ -54,15 +56,23 @@ export const CustomGoogleMap = () => {
             .gm-bundled-control-on-bottom .gmnoprint:nth-child(2) > div {
               box-shadow: none !important;
               background-color: unset !important;
-              margin-top: -30px !important;
+              margin-top: -60px !important;
               margin-left: 5px !important;
             }
             .gm-bundled-control-on-bottom .gmnoprint:nth-child(2) > div button {
               background-color: white !important;
               border-radius: 50%;
-              width: 30px !important;
-              height: 30px !important;
-              margin-top: 5px !important;
+              width: 34px !important;
+              height: 34px !important;
+              margin-top: 10px !important;
+            }
+            .gm-bundled-control-on-bottom .gmnoprint:nth-child(2) > div div {
+              display: none !important;
+            }
+            .gm-bundled-control-on-bottom .gmnoprint:nth-child(2) > div button img {
+              width: 10px !important;
+              height: 10px !important;
+              color: rgb(150, 150, 150) !important;
             }
           `}</style>
           <LocationSearchInput position={position} setPosition={setPosition} />
