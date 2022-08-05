@@ -116,7 +116,7 @@ export const AddNewNFT: React.FC<Props> = ({ onAdded, onBack, onNewNFT }) => {
             Set Location
           </h2>
           <CustomGoogleMap />
-          <div className="mt-8 flex flex-col items-center">
+          <div className="flex flex-col items-center">
             <button
               className="bg-primary hover:bg-secondary text- text-white w-72 sm:w-80 mt-10 py-4 rounded-lg transition-all delay-300 disabled:bg-darkGrey disabled:hover:bg-darkGrey"
               disabled={currentCreatingStatus == creatingStatus.uploading}

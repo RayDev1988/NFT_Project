@@ -8,6 +8,7 @@ import 'swiper/css/bundle';
 // tailwind
 import '../styles/index.css';
 import '../styles/swiper.css';
+import '../styles/map.css';
 
 // fonts
 import '@fontsource/anton/latin.css';

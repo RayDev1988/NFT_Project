@@ -114,3 +114,6 @@
     flex-direction: column;
   }
 }
+:global(.gm-fullscreen-control) {
+  display: none;
+}

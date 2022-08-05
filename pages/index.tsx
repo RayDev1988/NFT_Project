@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-sync-scripts */
+/* eslint-disable @next/next/no-script-in-head */
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
