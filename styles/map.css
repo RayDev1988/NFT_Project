@@ -8,7 +8,7 @@
   margin-top: -30px;
   font-family: fangsong;
   font-size: 13px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .search-item {
@@ -29,11 +29,11 @@
 }
 
 .map-style {
-  width: 60%;
-  height: 50vh;
+  width: 56%;
+  height: 48vh;
   margin-top: 20px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
 }
 .search-menu {
@@ -46,8 +46,8 @@
   background-color: white;
 }
 .bottom-icon {
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background-color: white;
   position: absolute;
@@ -56,15 +56,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(150, 150, 150);
+  color: rgb(100, 100, 100);
 }
 .near-me-out-lined-icon {
   width: 20px !important ;
   height: 20px !important;
 }
 .top-search-icon {
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background-color: white;
   position: absolute;
@@ -92,5 +92,5 @@
   background-color: rgb(150, 150, 150);
 }
 .search-icon-color {
-  color: rgb(150, 150, 150);
+  color: rgb(100, 100, 100);
 }

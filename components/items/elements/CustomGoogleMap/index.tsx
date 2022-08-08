@@ -62,9 +62,9 @@ export const CustomGoogleMap = () => {
             .gm-bundled-control-on-bottom .gmnoprint:nth-child(2) > div button {
               background-color: white !important;
               border-radius: 50%;
-              width: 34px !important;
-              height: 34px !important;
-              margin-top: 10px !important;
+              width: 36px !important;
+              height: 36px !important;
+              margin-top: 5px !important;
             }
             .gm-bundled-control-on-bottom .gmnoprint:nth-child(2) > div div {
               display: none !important;
@@ -107,7 +107,7 @@ const LocationSearchInput = ({ position, setPosition }) => {
               className="h-6 w-6 bg-white"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="#888888"
+              stroke="rgb(120 113 255)"
               strokeWidth="2"
             >
               <path
